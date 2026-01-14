@@ -1,0 +1,19 @@
+{
+  "name": "less",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+
+  "scripts": {
+  "build": "lessc src/styles/main.less build/styles/main.css",
+  "watch": "less-watch-compiler src/styles build/styles main.less"
+},
+
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.5.1",
+    "less-watch-compiler": "^1.17.5"
+  }
+}
